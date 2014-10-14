@@ -7,6 +7,14 @@ Free to use under MIT license
 Copyright (c) 2014 Llama Logic
 */
 
+/*
+Just drop in child-theme functions.php -- call with 
+[product_categories_dropdown]
+
+Requires:
+WooCommerce Plugin
+*/
+
 
 add_shortcode('product_categories_dropdown', 'custom_woocommerce_category_drop');
 function custom_woocommerce_category_drop()
